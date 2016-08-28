@@ -1,12 +1,12 @@
 /*
- *
- * KMRobotDemo.cpp
- * Build by Microsoft Visual Studio 2010
- * ZhaoChunsheng 2016/08/26
- * Needs Moxa PComm Lite - Serial Comm Development Tool
- * http://www.moxa.com/product/download_pcommlite_info.htm
- *
- */
+*
+* KMRobotDemo.cpp
+* Build by Microsoft Visual Studio 2010
+* ZhaoChunsheng 2016/08/26
+* Needs Moxa PComm Lite - Serial Comm Development Tool
+* http://www.moxa.com/product/download_pcommlite_info.htm
+*
+*/
 
 // KMRobotDemo.cpp : 定义控制台应用程序的入口点。
 //
@@ -24,7 +24,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	POINT point;
 	GetCursorPos(&point);
 	HWND hwnd=WindowFromPoint(point); //得到鼠标当前客户区句柄
-	
+
 	//
 	m_kmrobot.KeyboardWrite(131,1); //打开开始菜单（徽标键KEY_LEFT_GUI，十进制131）
 	//m_kmrobot.KeyboardWrite(65,10); //十个 A

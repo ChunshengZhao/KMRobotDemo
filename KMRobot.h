@@ -1,12 +1,12 @@
 /*
- *
- * KMRobot.h
- * Build by Microsoft Visual Studio 2010
- * ZhaoChunsheng 2016/08/26
- * Needs Moxa PComm Lite - Serial Comm Development Tool
- * http://www.moxa.com/product/download_pcommlite_info.htm
- *
- */
+*
+* KMRobot.h
+* Build by Microsoft Visual Studio 2010
+* ZhaoChunsheng 2016/08/26
+* Needs Moxa PComm Lite - Serial Comm Development Tool
+* http://www.moxa.com/product/download_pcommlite_info.htm
+*
+*/
 
 #ifndef _KMROBOT_H_  
 #define _KMROBOT_H_  
@@ -19,8 +19,8 @@ private:
 	char str_mouseSpeed[16];
 public:
 
-    KMRobot(int port);
-    int Open();
+	KMRobot(int port);
+	int Open();
 	void Close();
 
 	void KeyboardWrite(int key, int times);
@@ -29,7 +29,7 @@ public:
 	void KeyboardPress(int key);
 	void KeyboardRelease(int key);
 	void KeyboardReleaseAll();
-	
+
 	void MousePress(char button[8]);
 	void MouseRelease(char button[8]);
 	void MouseMove(int x,int y, int wheel);

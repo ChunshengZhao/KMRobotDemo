@@ -1,12 +1,12 @@
 /*
- *
- * KMRobot.cpp
- * Build by Microsoft Visual Studio 2010
- * ZhaoChunsheng 2016/08/26
- * Needs Moxa PComm Lite - Serial Comm Development Tool
- * http://www.moxa.com/product/download_pcommlite_info.htm
- *
- */
+*
+* KMRobot.cpp
+* Build by Microsoft Visual Studio 2010
+* ZhaoChunsheng 2016/08/26
+* Needs Moxa PComm Lite - Serial Comm Development Tool
+* http://www.moxa.com/product/download_pcommlite_info.htm
+*
+*/
 
 #include "stdafx.h"
 #include "KMRobot.h"
